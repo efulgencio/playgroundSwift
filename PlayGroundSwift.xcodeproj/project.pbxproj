@@ -14,6 +14,7 @@
 		418DBFC11C5B395800CFBD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DBFBF1C5B395800CFBD40 /* LaunchScreen.storyboard */; };
 		418DBFCC1C5B395800CFBD40 /* PlayGroundSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFCB1C5B395800CFBD40 /* PlayGroundSwiftTests.swift */; };
 		418DBFD71C5B395800CFBD40 /* PlayGroundSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */; };
+		41C49CC91C5B487A003E51F7 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C49CC81C5B487A003E51F7 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundSwiftUITests.swift; sourceTree = "<group>"; };
 		418DBFD81C5B395800CFBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		418DBFE41C5B396900CFBD40 /* PlaygroundCursoSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlaygroundCursoSwift.playground; sourceTree = "<group>"; };
+		41C49CC81C5B487A003E51F7 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				418DBFBD1C5B395800CFBD40 /* Assets.xcassets */,
 				418DBFBF1C5B395800CFBD40 /* LaunchScreen.storyboard */,
 				418DBFC21C5B395800CFBD40 /* Info.plist */,
+				41C49CC81C5B487A003E51F7 /* Counter.swift */,
 			);
 			path = PlayGroundSwift;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41C49CC91C5B487A003E51F7 /* Counter.swift in Sources */,
 				418DBFB91C5B395800CFBD40 /* ViewController.swift in Sources */,
 				418DBFB71C5B395800CFBD40 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +488,7 @@
 				418DBFDD1C5B395800CFBD40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418DBFDE1C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				418DBFE01C5B395800CFBD40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418DBFE11C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				418DBFE31C5B395800CFBD40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
