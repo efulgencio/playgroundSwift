@@ -47,6 +47,7 @@
 		418DBFD21C5B395800CFBD40 /* PlayGroundSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGroundSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundSwiftUITests.swift; sourceTree = "<group>"; };
 		418DBFD81C5B395800CFBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418DBFE41C5B396900CFBD40 /* PlaygroundCursoSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PlaygroundCursoSwift.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				418DBFCA1C5B395800CFBD40 /* PlayGroundSwiftTests */,
 				418DBFD51C5B395800CFBD40 /* PlayGroundSwiftUITests */,
 				418DBFB41C5B395800CFBD40 /* Products */,
+				418DBFE41C5B396900CFBD40 /* PlaygroundCursoSwift.playground */,
 			);
 			sourceTree = "<group>";
 		};
