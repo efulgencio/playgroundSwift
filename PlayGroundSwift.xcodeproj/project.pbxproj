@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418DBFB71C5B395800CFBD40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFB61C5B395800CFBD40 /* AppDelegate.swift */; };
+		418DBFB91C5B395800CFBD40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFB81C5B395800CFBD40 /* ViewController.swift */; };
+		418DBFBC1C5B395800CFBD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DBFBA1C5B395800CFBD40 /* Main.storyboard */; };
+		418DBFBE1C5B395800CFBD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418DBFBD1C5B395800CFBD40 /* Assets.xcassets */; };
+		418DBFC11C5B395800CFBD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418DBFBF1C5B395800CFBD40 /* LaunchScreen.storyboard */; };
+		418DBFCC1C5B395800CFBD40 /* PlayGroundSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFCB1C5B395800CFBD40 /* PlayGroundSwiftTests.swift */; };
+		418DBFD71C5B395800CFBD40 /* PlayGroundSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		418DBFC81C5B395800CFBD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418DBFAB1C5B395800CFBD40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418DBFB21C5B395800CFBD40;
+			remoteInfo = PlayGroundSwift;
+		};
+		418DBFD31C5B395800CFBD40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 418DBFAB1C5B395800CFBD40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 418DBFB21C5B395800CFBD40;
+			remoteInfo = PlayGroundSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		418DBFB31C5B395800CFBD40 /* PlayGroundSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGroundSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418DBFB61C5B395800CFBD40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		418DBFB81C5B395800CFBD40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		418DBFBB1C5B395800CFBD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418DBFBD1C5B395800CFBD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418DBFC01C5B395800CFBD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418DBFC21C5B395800CFBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418DBFC71C5B395800CFBD40 /* PlayGroundSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGroundSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418DBFCB1C5B395800CFBD40 /* PlayGroundSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundSwiftTests.swift; sourceTree = "<group>"; };
+		418DBFCD1C5B395800CFBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418DBFD21C5B395800CFBD40 /* PlayGroundSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayGroundSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGroundSwiftUITests.swift; sourceTree = "<group>"; };
+		418DBFD81C5B395800CFBD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418DBFB01C5B395800CFBD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFC41C5B395800CFBD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFCF1C5B395800CFBD40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418DBFAA1C5B395800CFBD40 = {
+			isa = PBXGroup;
+			children = (
+				418DBFB51C5B395800CFBD40 /* PlayGroundSwift */,
+				418DBFCA1C5B395800CFBD40 /* PlayGroundSwiftTests */,
+				418DBFD51C5B395800CFBD40 /* PlayGroundSwiftUITests */,
+				418DBFB41C5B395800CFBD40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418DBFB41C5B395800CFBD40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418DBFB31C5B395800CFBD40 /* PlayGroundSwift.app */,
+				418DBFC71C5B395800CFBD40 /* PlayGroundSwiftTests.xctest */,
+				418DBFD21C5B395800CFBD40 /* PlayGroundSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418DBFB51C5B395800CFBD40 /* PlayGroundSwift */ = {
+			isa = PBXGroup;
+			children = (
+				418DBFB61C5B395800CFBD40 /* AppDelegate.swift */,
+				418DBFB81C5B395800CFBD40 /* ViewController.swift */,
+				418DBFBA1C5B395800CFBD40 /* Main.storyboard */,
+				418DBFBD1C5B395800CFBD40 /* Assets.xcassets */,
+				418DBFBF1C5B395800CFBD40 /* LaunchScreen.storyboard */,
+				418DBFC21C5B395800CFBD40 /* Info.plist */,
+			);
+			path = PlayGroundSwift;
+			sourceTree = "<group>";
+		};
+		418DBFCA1C5B395800CFBD40 /* PlayGroundSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				418DBFCB1C5B395800CFBD40 /* PlayGroundSwiftTests.swift */,
+				418DBFCD1C5B395800CFBD40 /* Info.plist */,
+			);
+			path = PlayGroundSwiftTests;
+			sourceTree = "<group>";
+		};
+		418DBFD51C5B395800CFBD40 /* PlayGroundSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				418DBFD61C5B395800CFBD40 /* PlayGroundSwiftUITests.swift */,
+				418DBFD81C5B395800CFBD40 /* Info.plist */,
+			);
+			path = PlayGroundSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418DBFB21C5B395800CFBD40 /* PlayGroundSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418DBFDB1C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwift" */;
+			buildPhases = (
+				418DBFAF1C5B395800CFBD40 /* Sources */,
+				418DBFB01C5B395800CFBD40 /* Frameworks */,
+				418DBFB11C5B395800CFBD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayGroundSwift;
+			productName = PlayGroundSwift;
+			productReference = 418DBFB31C5B395800CFBD40 /* PlayGroundSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		418DBFC61C5B395800CFBD40 /* PlayGroundSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418DBFDE1C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftTests" */;
+			buildPhases = (
+				418DBFC31C5B395800CFBD40 /* Sources */,
+				418DBFC41C5B395800CFBD40 /* Frameworks */,
+				418DBFC51C5B395800CFBD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418DBFC91C5B395800CFBD40 /* PBXTargetDependency */,
+			);
+			name = PlayGroundSwiftTests;
+			productName = PlayGroundSwiftTests;
+			productReference = 418DBFC71C5B395800CFBD40 /* PlayGroundSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		418DBFD11C5B395800CFBD40 /* PlayGroundSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418DBFE11C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftUITests" */;
+			buildPhases = (
+				418DBFCE1C5B395800CFBD40 /* Sources */,
+				418DBFCF1C5B395800CFBD40 /* Frameworks */,
+				418DBFD01C5B395800CFBD40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				418DBFD41C5B395800CFBD40 /* PBXTargetDependency */,
+			);
+			name = PlayGroundSwiftUITests;
+			productName = PlayGroundSwiftUITests;
+			productReference = 418DBFD21C5B395800CFBD40 /* PlayGroundSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418DBFAB1C5B395800CFBD40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "eduardo fulgencio";
+				TargetAttributes = {
+					418DBFB21C5B395800CFBD40 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					418DBFC61C5B395800CFBD40 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 418DBFB21C5B395800CFBD40;
+					};
+					418DBFD11C5B395800CFBD40 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 418DBFB21C5B395800CFBD40;
+					};
+				};
+			};
+			buildConfigurationList = 418DBFAE1C5B395800CFBD40 /* Build configuration list for PBXProject "PlayGroundSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418DBFAA1C5B395800CFBD40;
+			productRefGroup = 418DBFB41C5B395800CFBD40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418DBFB21C5B395800CFBD40 /* PlayGroundSwift */,
+				418DBFC61C5B395800CFBD40 /* PlayGroundSwiftTests */,
+				418DBFD11C5B395800CFBD40 /* PlayGroundSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418DBFB11C5B395800CFBD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418DBFC11C5B395800CFBD40 /* LaunchScreen.storyboard in Resources */,
+				418DBFBE1C5B395800CFBD40 /* Assets.xcassets in Resources */,
+				418DBFBC1C5B395800CFBD40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFC51C5B395800CFBD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFD01C5B395800CFBD40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418DBFAF1C5B395800CFBD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418DBFB91C5B395800CFBD40 /* ViewController.swift in Sources */,
+				418DBFB71C5B395800CFBD40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFC31C5B395800CFBD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418DBFCC1C5B395800CFBD40 /* PlayGroundSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418DBFCE1C5B395800CFBD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418DBFD71C5B395800CFBD40 /* PlayGroundSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		418DBFC91C5B395800CFBD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418DBFB21C5B395800CFBD40 /* PlayGroundSwift */;
+			targetProxy = 418DBFC81C5B395800CFBD40 /* PBXContainerItemProxy */;
+		};
+		418DBFD41C5B395800CFBD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 418DBFB21C5B395800CFBD40 /* PlayGroundSwift */;
+			targetProxy = 418DBFD31C5B395800CFBD40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		418DBFBA1C5B395800CFBD40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418DBFBB1C5B395800CFBD40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418DBFBF1C5B395800CFBD40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418DBFC01C5B395800CFBD40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418DBFD91C5B395800CFBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		418DBFDA1C5B395800CFBD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418DBFDC1C5B395800CFBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGroundSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		418DBFDD1C5B395800CFBD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlayGroundSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		418DBFDF1C5B395800CFBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGroundSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGroundSwift.app/PlayGroundSwift";
+			};
+			name = Debug;
+		};
+		418DBFE01C5B395800CFBD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlayGroundSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayGroundSwift.app/PlayGroundSwift";
+			};
+			name = Release;
+		};
+		418DBFE21C5B395800CFBD40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayGroundSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayGroundSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		418DBFE31C5B395800CFBD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlayGroundSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.efc.PlayGroundSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlayGroundSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418DBFAE1C5B395800CFBD40 /* Build configuration list for PBXProject "PlayGroundSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418DBFD91C5B395800CFBD40 /* Debug */,
+				418DBFDA1C5B395800CFBD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418DBFDB1C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418DBFDC1C5B395800CFBD40 /* Debug */,
+				418DBFDD1C5B395800CFBD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		418DBFDE1C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418DBFDF1C5B395800CFBD40 /* Debug */,
+				418DBFE01C5B395800CFBD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		418DBFE11C5B395800CFBD40 /* Build configuration list for PBXNativeTarget "PlayGroundSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418DBFE21C5B395800CFBD40 /* Debug */,
+				418DBFE31C5B395800CFBD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418DBFAB1C5B395800CFBD40 /* Project object */;
+}
